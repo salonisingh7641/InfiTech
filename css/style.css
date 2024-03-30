@@ -77,10 +77,19 @@ body {
   transform: rotate(180deg);
 }
 
-.logo-container{
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto; 
+.logo-container {
+  text-align: center; /* Center the logo */
+}
+
+.logo-container img {
+  max-width: 100%; /* Make sure the logo doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) { /* Adjust for smaller screens */
+  .logo-container img {
+      max-width: 100%; /* Reduce the size for smaller screens */
+  }
 }
 
 /* .row .btn{
