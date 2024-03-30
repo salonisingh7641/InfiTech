@@ -77,6 +77,12 @@ body {
   transform: rotate(180deg);
 }
 
+.logo-container{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; 
+}
+
 /* .row .btn{
     outline: none;
     border: none;
